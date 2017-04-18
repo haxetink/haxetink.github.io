@@ -1,10 +1,13 @@
 # Tinkerbell for Haxe
 
+Tinkerbell is a collection of libraries for the [Haxe](https://haxe.org/) programming language.
+
 ### Frameworks
 
 - `tink_web` - [Source](https://github.com/haxetink/tink_web) - [Docs](https://haxetink.github.io/tink_web/) - Web Routing
 - `tink_unittest` - [Source](https://github.com/haxetink/tink_unittest) - Unit Testing
 - `tink_sql` - [Source](https://github.com/haxetink/tink_sql) - SQL embeded into Haxe
+- `tink_cli` - [Source](https://github.com/haxetink/tink_cli) - Write command line tools in Haxe
 
 ### Parsers / Writers
 
@@ -18,6 +21,7 @@
 
 ### Template
 
+- `tink_hxx` - [Source](https://github.com/haxetink/tink_hxx) - JSX minus JS plus HX
 - `tink_template` - [Source](https://github.com/haxetink/tink_template) - Template Library
 
 ### Utilities
@@ -40,3 +44,7 @@
 - `tink_runloop` - [Source](https://github.com/haxetink/tink_runloop) - Cross platform run loop abstraction
 - `tink_concurrent` - [Source](https://github.com/haxetink/tink_concurrent) - Cross platform concurrency abstraction
 - `tink_priority` - [Source](https://github.com/haxetink/tink_priority) - Prioritize sparsely codependent elements
+- `tink_state` - [Source](https://github.com/haxetink/tink_state) - Reactive State Handling
+- `tink_typecrawler` - [Source](https://github.com/haxetink/tink_typecrawler) - Helper for generating parsers / readers for complex data structures
+- `tink_stringly` - [Source](https://github.com/haxetink/tink_stringly) - Stringliness
+- `tink_validation` - [Source](https://github.com/haxetink/tink_validation) - Runtime type check and value extractor for dynamic objects
