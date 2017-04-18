@@ -9,11 +9,12 @@
 ### Parsers / Writers
 
 - `tink_json` - [Source](https://github.com/haxetink/tink_json) - Macro powered JSON
-- `tink_multipart` - [Source](https://github.com/haxetink/tink_multipart) - Multipart parsing
+- `tink_querystring` - [Source](https://github.com/haxetink/tink_querystring) - Macro powered query string parsing and composition
 - `tink_url` - [Source](https://github.com/haxetink/tink_url) - Painless URI and path handling
-- `tink_parse` - [Source](https://github.com/haxetink/tink_parse) - Simple, fast, macro free parser library
+- `tink_multipart` - [Source](https://github.com/haxetink/tink_multipart) - Multipart parsing
 - `tink_csss` - [Source](https://github.com/haxetink/tink_csss) - CSS selector parsing
 - `tink_semver` - [Source](https://github.com/haxetink/tink_semver) - Deal with SemVer once and for all
+- `tink_parse` - [Source](https://github.com/haxetink/tink_parse) - Simple, fast, macro free parser library
 
 ### Template
 
