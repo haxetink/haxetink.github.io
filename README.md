@@ -4,7 +4,7 @@ Tinkerbell is a collection of libraries for the [Haxe](https://haxe.org/) progra
 
 ### Frameworks
 
-- `tink_web` - [Source](https://github.com/haxetink/tink_web) - [Docs](/tink_web) - Web Routing
+- `tink_web` - [Source](https://github.com/haxetink/tink_web) - [Docs](https://haxetink.github.io/tink_web/) - Web Routing
 - `tink_unittest` - [Source](https://github.com/haxetink/tink_unittest) - Unit Testing
 - `tink_sql` - [Source](https://github.com/haxetink/tink_sql) - SQL embeded into Haxe
 - `tink_cli` - [Source](https://github.com/haxetink/tink_cli) - Write command line tools in Haxe
@@ -26,7 +26,7 @@ Tinkerbell is a collection of libraries for the [Haxe](https://haxe.org/) progra
 
 ### Utilities
 
-- `tink_core` - [Source](https://github.com/haxetink/tink_core) - [Docs](/tink_core) - Core Utilities
+- `tink_core` - [Source](https://github.com/haxetink/tink_core) - [Docs](https://haxetink.github.io/tink_core/) - Core Utilities
 - `tink_macro` - [Source](https://github.com/haxetink/tink_macro) - The macro toolkit
 - `tink_await` - [Source](https://github.com/haxetink/tink_await) - Async continuation
 - `tink_lang` - [Source](https://github.com/haxetink/tink_lang) - Syntax sugar
