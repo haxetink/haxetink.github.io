@@ -34,8 +34,8 @@ Tinkerbell is a collection of libraries for the [Haxe](https://haxe.org/) progra
 ### Others
 
 - `tink_tcp` - [Source](https://github.com/haxetink/tink_tcp) - TCP everywhere!
-- `tink_http` - [Source](https://github.com/haxetink/tink_http) - HTTP everywhere!
-- `tink_io` - [Source](https://github.com/haxetink/tink_io) - Asynchronous I/O everywhere!
+- `tink_http` - [Source](https://github.com/haxetink/tink_http) - [Docs](https://haxetink.github.io/tink_http/) - HTTP everywhere!
+- `tink_io` - [Source](https://github.com/haxetink/tink_io) - [Docs](https://haxetink.github.io/tink_io/) - Asynchronous I/O everywhere!
 - `tink_streams` - [Source](https://github.com/haxetink/tink_streams) - Immutable asynchronous lazy lists
 - `tink_pure` - [Source](https://github.com/haxetink/tink_pure) - Pure immutable data
 - `tink_chunk` - [Source](https://github.com/haxetink/tink_chunk) - Chunks of readonly binary data
