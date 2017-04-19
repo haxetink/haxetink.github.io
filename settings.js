@@ -4,8 +4,8 @@ window.$docsify.subMaxLevel = 3;
 if(!window.$docsify.plugins) window.$docsify.plugins = [];
 window.$docsify.plugins.push(function(hook) {
 	hook.afterEach(function (html) {
-	var repo = window.location.pathname.substr(1); // strip the /
-	var path = window.location.hash.substr(1); // strip the #
+	var repo = window.location.pathname.substr(1); // strip the `/`
+	var path = window.location.hash.substr(1).split('?')[0]; // strip the `#` and anything after `?`
 	if(repo == '')	
 		repo = 'haxetink.github.io/blob/master';
 	else
