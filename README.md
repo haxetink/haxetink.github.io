@@ -9,7 +9,7 @@ Tinkerbell is a collection of libraries for the [Haxe](https://haxe.org/) progra
 - `tink_web` - [Source](https://github.com/haxetink/tink_web) - [Docs](https://haxetink.github.io/tink_web/) - Web Routing
 - `tink_unittest` - [Source](https://github.com/haxetink/tink_unittest) - Unit Testing
 - `tink_sql` - [Source](https://github.com/haxetink/tink_sql) - SQL embeded into Haxe
-- `tink_cli` - [Source](https://github.com/haxetink/tink_cli) - Write command line tools in Haxe
+- `tink_cli` - [Source](https://github.com/haxetink/tink_cli) - [Docs](https://haxetink.github.io/tink_cli/) - Write command line tools in Haxe
 
 ### Parsers / Writers
 
