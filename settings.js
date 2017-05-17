@@ -1,4 +1,5 @@
 window.$docsify.auto2top = true;
+window.$docsify.externalLinkTarget = '_self';
 window.$docsify.subMaxLevel = 3;
 
 if(!window.$docsify.plugins) window.$docsify.plugins = [];
