@@ -41,7 +41,7 @@ Tinkerbell is a collection of libraries for the [Haxe](https://haxe.org/) progra
 - `tink_streams` - [Source](https://github.com/haxetink/tink_streams) - Immutable asynchronous lazy lists
 - `tink_pure` - [Source](https://github.com/haxetink/tink_pure) - Pure immutable data
 - `tink_chunk` - [Source](https://github.com/haxetink/tink_chunk) - Chunks of readonly binary data
-- `tink_testrunner` - [Source](https://github.com/haxetink/tink_testrunner) - Universal test runner
+- `tink_testrunner` - [Source](https://github.com/haxetink/tink_testrunner) - [Docs](https://haxetink.github.io/tink_testrunner) - Universal test runner
 - `tink_syntaxhub` - [Source](https://github.com/haxetink/tink_syntaxhub) - Hub for plugging in language extensions
 - `tink_runloop` - [Source](https://github.com/haxetink/tink_runloop) - Cross platform run loop abstraction
 - `tink_concurrent` - [Source](https://github.com/haxetink/tink_concurrent) - Cross platform concurrency abstraction
