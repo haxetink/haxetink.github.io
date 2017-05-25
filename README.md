@@ -1,6 +1,6 @@
 # Tinkerbell for Haxe
 
-[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg?maxAge=2592000)](https://gitter.im/haxetink/public)
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/haxetink/public)
 
 Tinkerbell is a collection of libraries for the [Haxe](https://haxe.org/) programming language.
 
