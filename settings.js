@@ -12,7 +12,8 @@ window.$docsify.plugins.push(function(hook, vm) {
 		else
 			repo += '/blob/gh-pages';
 			
-		path += vm.route.file;
+		if(path == '/') path = '/README';
+		path += '.md';
 		
 		var footer = ['[Edit this page](https://github.com/haxetink/' + repo + path + ')\n'];
 		
@@ -26,14 +27,13 @@ window.$docsify.plugins.push(function(hook, vm) {
 					return res.text();
 				})
 				.then(function(sidebar) {
-					console.log(vm.route);
-					var regex = /\((.*\.md)\)/gi, result, links = [];
+					var regex = /\((.*)\.md\)/gi, result, links = [];
 					while ( (result = regex.exec(sidebar)) ) {
 						links.push('/' + result[1]);
 					}
-					var index = links.indexOf(vm.route.file);
-					if(index > 0) footer.push('[< Prev](' + links[index - 1] + ')');
-					if(index < links.length - 1) footer.push('[Next >](' + links[index + 1] + ')');
+					var index = links.indexOf(vm.route.path);
+					if(index > 0) footer.push('[< Prev](' + links[index - 1].substr(1) + '.md)');
+					if(index < links.length - 1) footer.push('[Next >](' + links[index + 1].substr(1) + '.md)');
 					done();
 				});
 		} else {
