@@ -32,8 +32,10 @@ window.$docsify.plugins.push(function(hook, vm) {
 						links.push('/' + result[1]);
 					}
 					var index = links.indexOf(vm.route.path);
-					if(index > 0) footer.push('[< Prev](' + links[index - 1].substr(1) + '.md)');
-					if(index < links.length - 1) footer.push('[Next >](' + links[index + 1].substr(1) + '.md)');
+					if(index != -1) {
+						if(index > 0) footer.push('[< Prev](' + links[index - 1].substr(1) + '.md)');
+						if(index < links.length - 1) footer.push('[Next >](' + links[index + 1].substr(1) + '.md)');
+					}
 					done();
 				});
 		} else {
