@@ -4,7 +4,7 @@ window.$docsify.subMaxLevel = 3;
 
 if(!window.$docsify.plugins) window.$docsify.plugins = [];
 window.$docsify.plugins.push(function(hook, vm) {
-	hook.afterEach(function (html, next) {
+	hook.beforeEach(function (html, next) {
 		var repo = window.location.pathname.substr(1); // strip the `/`
 		var path = window.location.hash.substr(1).split('?')[0]; // strip the `#` and anything after `?`
 		if(repo == '')	
