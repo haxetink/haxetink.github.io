@@ -17,7 +17,7 @@ window.$docsify.plugins.push(function(hook, vm) {
 		var footer = ['[Edit this page](https://github.com/haxetink/' + repo + path + ')\n'];
 		
 		function done() {
-			next(html + '\n' + footer.join('\n'));
+			next(html + '\n\n' + footer.join('\n'));
 		}
 		
 		if(vm.config.loadSidebar) {
