@@ -26,7 +26,7 @@ window.$docsify.plugins.push(function(hook, vm) {
 					return res.text();
 				})
 				.then(function(sidebar) {
-					console.log(vm.route.file);
+					console.log(vm.route);
 					var regex = /\((.*\.md)\)/gi, result, links = [];
 					while ( (result = regex.exec(sidebar)) ) {
 						links.push('/' + result[1]);
