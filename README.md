@@ -46,7 +46,7 @@ Tinkerbell is a collection of libraries for the [Haxe](https://haxe.org/) progra
 - `tink_runloop` - [Source](https://github.com/haxetink/tink_runloop) - Cross platform run loop abstraction
 - `tink_concurrent` - [Source](https://github.com/haxetink/tink_concurrent) - Cross platform concurrency abstraction
 - `tink_priority` - [Source](https://github.com/haxetink/tink_priority) - Prioritize sparsely codependent elements
-- `tink_state` - [Source](https://github.com/haxetink/tink_state) - Reactive State Handling
+- `tink_state` - [Source](https://github.com/haxetink/tink_state) - [Docs](https://haxetink.github.io/tink_state) - Reactive State Handling
 - `tink_typecrawler` - [Source](https://github.com/haxetink/tink_typecrawler) - Helper for generating parsers / readers for complex data structures
 - `tink_stringly` - [Source](https://github.com/haxetink/tink_stringly) - Stringliness
 - `tink_validation` - [Source](https://github.com/haxetink/tink_validation) - Runtime type check and value extractor for dynamic objects
